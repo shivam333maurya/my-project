@@ -1,0 +1,9 @@
+.d-flex {
+  display: flex;
+  margin-top: 10px;
+  height: calc(100vh - 20px);
+}
+.main-side {
+  width: calc(100% - 300px);
+  padding-inline: 10px;
+}

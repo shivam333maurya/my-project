@@ -1,0 +1,53 @@
+.container {
+  // position: absolute;
+  // left: 300px;
+  overflow-y: auto;
+}
+.pagination {
+  margin-inline: 20px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.display {
+  display: none !important;
+}
+.active {
+  background: #1a2740e0;
+  border-radius: 50%;
+  color: antiquewhite;
+}
+
+.heart {
+  left: 58%;
+  position: absolute;
+}
+.left {
+  position: absolute;
+  left: 54px;
+  transform: rotate(45deg);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  width: 70px;
+  height: 120px;
+  // background-color: #c13103;
+  background-image: linear-gradient(314deg, pink, red);
+}
+
+.right {
+  background-image: linear-gradient(45deg, pink, red);
+  position: relative;
+  left: 25%;
+  transform: rotate(-45deg);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  width: 70px;
+  height: 120px;
+  // background-color: #c13103;
+  span {
+    font-weight: 500;
+    color: blue;
+    position: absolute;
+    transform: translateY(64px) rotate(45deg);
+  }
+}
