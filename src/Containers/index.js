@@ -6,6 +6,7 @@ const Hello = () => {
       <div>hI</div>
       <div>Hello</div>
       <div>wellcome</div>
+      <div>wellcome1</div>
     </>
   );
 };
