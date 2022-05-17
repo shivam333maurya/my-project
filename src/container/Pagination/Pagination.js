@@ -152,32 +152,32 @@ const Pagination = () => {
   // const str = JSON.stringify(person);
   // console.log("person", person);
 
-  function vowelsAndConsonants(s) {
-    const vowels = "aeiou";
+  // function vowelsAndConsonants(s) {
+  //   const vowels = "aeiou";
 
-    const c = [],
-      v = [];
-    for (let i = 0; i < s.length; i++) {
-      if (vowels.includes(s[i])) {
-        v.push(s[i]);
-        console.log(s[i] + "\n");
-      } else {
-        c.push(s[i]);
-        console.log(s[i] + "\n");
-      }
-    }
-    let result = [...v, ...c];
-    for (let i of result) {
-      console.log(i);
-    }
-    console.log(v, c);
+  //   const c = [],
+  //     v = [];
+  //   for (let i = 0; i < s.length; i++) {
+  //     if (vowels.includes(s[i])) {
+  //       v.push(s[i]);
+  //       console.log(s[i] + "\n");
+  //     } else {
+  //       c.push(s[i]);
+  //       console.log(s[i] + "\n");
+  //     }
+  //   }
+  //   let result = [...v, ...c];
+  //   for (let i of result) {
+  //     console.log(i);
+  //   }
+  //   console.log(v, c);
 
-    return v;
-  }
+  //   return v;
+  // }
 
-  const s = "javascriptloops";
+  // const s = "javascriptloops";
 
-  vowelsAndConsonants(s);
+  // vowelsAndConsonants(s);
 
   // test are end
 
