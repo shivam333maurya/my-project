@@ -102,7 +102,7 @@ const Pagination = () => {
     location: "india",
     status: true,
   };
-  const { name, id } = obj;
+  const { name, id } = { ...obj };
   console.log("test", name, id);
 
   const filteredData = list.filter((key) =>
@@ -152,33 +152,43 @@ const Pagination = () => {
   // const str = JSON.stringify(person);
   // console.log("person", person);
 
-  function vowelsAndConsonants(s) {
-    const vowels = "aeiou";
+  // function vowelsAndConsonants(s) {
+  //   const vowels = "aeiou";
 
-    const c = [],
-      v = [];
-    for (let i = 0; i < s.length; i++) {
-      if (vowels.includes(s[i])) {
-        v.push(s[i]);
-        console.log(s[i] + "\n");
-      } else {
-        c.push(s[i]);
-        console.log(s[i] + "\n");
-      }
-    }
-    let result = [...v, ...c];
-    for (let i of result) {
-      console.log(i);
-    }
-    console.log(v, c);
+  //   const c = [],
+  //     v = [];
+  //   for (let i = 0; i < s.length; i++) {
+  //     if (vowels.includes(s[i])) {
+  //       v.push(s[i]);
+  //       console.log(s[i] + "\n");
+  //     } else {
+  //       c.push(s[i]);
+  //       console.log(s[i] + "\n");
+  //     }
+  //   }
+  //   let result = [...v, ...c];
+  //   for (let i of result) {
+  //     console.log(i);
+  //   }
+  //   console.log(v, c);
 
-    return v;
-  }
+  //   return v;
+  // }
 
-  const s = "javascriptloops";
+  // const s = "javascriptloops";
 
-  vowelsAndConsonants(s);
+  // vowelsAndConsonants(s)
 
+  const array = ["🐑", 1, 2, "🐑", "🐑", 3, 4, 4, 4, 4, 4];
+  // const unique = new Set(array);
+  // console.log(unique);
+
+  // const u = array.reduce((unique, item, s) => {
+  //   console.log(unique, item, s);
+
+  //   return unique.includes(item) ? unique : [...unique, item];
+  // }, []);
+  // console.log(u);
   // test are end
 
   return (
